@@ -1,0 +1,25 @@
+.time {
+  margin-bottom: 1em !important;
+}
+.masthead.segment {
+  padding: 1em 0em;
+}
+body {
+  font-family: "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang TC",
+    "Helvetica Neue", "Helvetica", "Arial", "Microsoft JhengHei", wf_SegoeUI,
+    "Segoe UI", Segoe, "Segoe WP", Tahoma, Verdana, Ubuntu,
+    "Bitstream Vera Sans", "DejaVu Sans", Tahoma, 微軟正黑體, "LiHei Pro",
+    "WenQuanYi Micro Hei", "Droid Sans Fallback", "AR PL UMing TW", Roboto,
+    "Helvetica Neue", "Hiragino Maru Gothic ProN", メイリオ, "ヒラギノ丸ゴ ProN W4",
+    Meiryo, "Droid Sans", sans-serif;
+}
+@media only screen and (max-width: 767px) {
+  .ui.grid > .column:not(.row) {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .ui.grid > .column:not(.row) {
+    text-align: center;
+  }
+}
