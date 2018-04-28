@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BTC</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="ui container">
+        <div class="ui masthead vertical segment">
+            <h1 class="ui header">
+        Bitcoin 即時匯率
+      </h1>
+        </div>
+        <div class="ui icon message">
+            <i class="clock icon"></i>
+            <div class="content">
+                <div class="header">
+                    Update in every 10 seconds
+                </div>
+                <p>每十秒會自動從 <a href="https://coinmarketcap.com">Cryptocurrency Market Capitalizations</a> 取得匯率
+                    <br> 如果數值沒動的話就是 Cryptocurrency Market Capitalizations 的匯率沒有變動</p>
+            </div>
+        </div>
+        <div id="app"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react-dom.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
